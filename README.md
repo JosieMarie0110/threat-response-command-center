@@ -1,7 +1,7 @@
 **Status:** Early build / active concept development
 
 # Threat & Response Command Center
-
+**Design Inspiration:** Palo Alto Networks (Unit 42, Cortex XSIAM-style workflows)
 
 A Streamlit-based incident response and customer-facing security workflow tool designed to help structure investigation thinking, response planning, and clearer communication during live or simulated security events.
 
