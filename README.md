@@ -40,6 +40,10 @@ This is especially relevant for roles that sit between technical depth and custo
 
 ---
 
+<img width="2337" height="1186" alt="image" src="https://github.com/user-attachments/assets/327d9a9c-50e2-4ead-9a02-059e0022c28a" />
+<img width="2099" height="1186" alt="image" src="https://github.com/user-attachments/assets/dacc4859-b45e-4442-89d7-6ee343b936d0" />
+
+
 ## How It Works
 
 The application presents **predefined scenarios** that represent common security situations across domains such as identity, endpoint, cloud, and network.
