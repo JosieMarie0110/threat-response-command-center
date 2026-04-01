@@ -1,0 +1,7 @@
+backup_*
+*.zip
+__pycache__/
+venv/
+.env
+.streamlit/
+README.md
