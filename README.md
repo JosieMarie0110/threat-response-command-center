@@ -1,113 +1,121 @@
-**Status:** Early build / active concept development
 
-# Threat & Response Command Center
-**Design Inspiration:** Palo Alto Networks (Unit 42, Cortex XSIAM-style workflows)
 
-A Streamlit-based incident response and customer-facing security workflow tool designed to help structure investigative thinking, response planning, and clearer communication during live or simulated security events.
+**Status:** Early build / active concept development  
+**Design Inspiration:** Modern SOC workflows (informed by platforms like Palo Alto Networks Cortex XSIAM and Unit 42)
 
-## Overview
+---
+
 ## About
 
-A Palo Alto Networks–inspired Threat & Response Command Center is a scenario-driven project designed to model security situations and structure them into clear workflows for analysis, response planning, and communication.
+Threat & Response Command Center is a scenario-driven project designed to model security situations and guide structured thinking around investigation, response decisions, and customer-facing communication.
 
-The goal is not just to display alerts, but to help translate an incident into:
+This project does not ingest real alerts or connect to live systems. Instead, it focuses on helping break down complex security situations into clear, repeatable workflows that support better analysis and decision-making.
 
-- what the team is seeing
-- what it likely means
-- what should be validated first
-- what actions should happen next
-- how to guide customer conversations
-- how a TAM or adjacent customer-facing role can support during an incident
+---
 
-This project blends technical investigation structure with communication support, making it useful for security operations, customer-facing technical roles, and interview storytelling.
+## Overview
+
+This project was built to simulate how a security professional might think through a situation—not just technically, but operationally and from a customer-facing perspective.
+
+Each scenario is structured to help answer:
+
+- What is happening?
+- What does this likely mean?
+- What should be validated first?
+- What actions should be considered?
+- How should this be communicated to a customer or stakeholder?
+
+---
 
 ## Core Purpose
 
-This project is meant to help answer questions like:
+The goal of this project is to build and demonstrate a structured approach to:
 
-- What does this signal actually suggest?
-- What should the analyst validate before escalating?
-- What should the customer understand right now?
-- What actions belong in immediate response vs short-term follow-up?
-- How can a TAM help reduce confusion and support better decisions during an incident?
+- Security investigation thinking  
+- Response planning and prioritization  
+- Translating technical signals into business context  
+- Supporting customer conversations during uncertain situations  
 
-## Current Experience
+This is especially relevant for roles that sit between technical depth and customer interaction, such as Technical Account Managers and Customer Success roles in cybersecurity.
 
-The app is built around a **scenario workspace** where the user selects a scenario and reviews it through a structured command center layout.
+---
 
-### Main workflow areas
+## How It Works
 
-- **Command Snapshot**  
-  A quick read of the scenario, observed activity, initial concern, attacker objective, and business impact.
+The application presents **predefined scenarios** that represent common security situations across domains such as identity, endpoint, cloud, and network.
 
-- **SOC Investigation**  
-  Focused on signal interpretation, validation thinking, and environmental telemetry across domains like identity, endpoint, cloud, and network.
+Each scenario is broken down into a guided workflow:
 
-- **Response Actions**  
-  Organizes actions into immediate, short-term, and preventive response layers.
+### Command Snapshot
+A high-level view of the situation, including observed behavior, potential concerns, and initial context.
 
-- **Customer Guidance**  
-  Helps frame what the customer needs to know, what they should validate internally, and what decisions they may need to make.
+### Investigation Thinking
+Prompts and structure for analyzing what the activity could represent and what should be validated.
 
-- **TAM Assist**  
-  Adds behavioral and communication support for high-pressure customer conversations during incidents.
+### Response Planning
+Suggested response paths organized into immediate, short-term, and preventative considerations.
 
-- **Platform Context**  
-  Connects the incident back to platform value such as visibility, triage support, correlation, and operational clarity.
+### Customer Guidance
+How to frame the situation for a customer, including what they should understand, validate, and prioritize.
 
-- **Timeline**  
-  Maps the likely sequence of events to support clearer incident reconstruction and response planning.
+### TAM Assist
+Guidance on navigating customer conversations, reducing uncertainty, and communicating clearly under pressure.
 
-## Why this project matters
+### Platform Context
+How a modern security platform might support visibility, investigation, and response workflows in a situation like this.
 
-Many security tools show data, alerts, or detections.  
-This project is focused on helping a person make sense of the situation.
+### Timeline
+A simplified sequence to help visualize how the situation may have developed over time.
 
-It is designed around the idea that incident response is not only a technical process. It is also:
+---
 
-- a decision-making process
-- a communication process
-- a prioritization process
-- a customer trust moment
+## What This Project Is (and Is Not)
 
-That makes this project especially relevant for roles that sit between technical depth and customer-facing execution.
+### This project IS:
+- A structured thinking framework  
+- A simulation of security scenarios  
+- A tool for practicing investigation and response reasoning  
+- A way to improve communication in security contexts  
+- A portfolio project demonstrating problem-solving approach  
+
+### This project is NOT:
+- A SIEM, XDR, or detection platform  
+- Processing or ingesting real alerts  
+- Connected to live environments or telemetry  
+- Performing automated threat detection  
+
+---
+
+## Why This Matters
+
+Security incidents are not just technical problems—they are also:
+
+- decision-making challenges  
+- communication challenges  
+- prioritization challenges  
+- customer trust moments  
+
+This project focuses on the human and operational side of security, helping structure how those moments are handled.
+
+---
 
 ## Intended Audience
 
-This project is useful for:
+- Security analysts and aspiring SOC professionals  
+- Technical Account Managers (TAMs)  
+- Customer Success Managers in cybersecurity  
+- Security consultants  
+- Anyone preparing for security-focused interviews  
 
-- SOC analysts
-- incident responders
-- technical account managers
-- customer success managers in cybersecurity
-- security consultants
-- interview preparation for security-adjacent roles
-
-## Project Goals
-
-- Build a more realistic incident-response learning tool
-- Create structured scenario-based security workflows
-- Practice translating technical events into business and customer language
-- Demonstrate thinking that applies to TAM, SOC, IR, and platform value conversations
-- Showcase security reasoning in a portfolio-friendly format
+---
 
 ## Tech Stack
 
-- **Python**
-- **Streamlit**
-- Structured scenario data from local Python modules
+- Python  
+- Streamlit  
+- Scenario data modeled in local Python modules  
 
-## Planned Enhancements
-
-- more incident scenarios
-- deeper analyst validation paths
-- richer response decision trees
-- platform-specific context overlays
-- incident severity and confidence scoring
-- threat intel enrichment
-- customer communication templates
-- executive summary mode
-- case-notes export or reporting view
+---
 
 ## Project Structure
 
@@ -116,8 +124,6 @@ threat-response-command-center/
 ├── app.py
 ├── data/
 │   └── scenarios.py
-
-streamlit run app.py
 ├── threat_intel.py
 ├── README.md
 └── requirements.txt
