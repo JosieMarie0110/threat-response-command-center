@@ -4,6 +4,8 @@
 **Design Inspiration:** Modern SOC workflows (informed by platforms like Palo Alto Networks Cortex XSIAM and Unit 42)
 
 # Threat & Response Command Center
+
+A Palo Alto Networks–inspired Threat & Response Command Center is a scenario-driven project designed to model security situations and break them down into structured workflows for investigation thinking, response strategy, and customer communication.
 ---
 
 ## About
