@@ -6,7 +6,7 @@
 # Threat & Response Command Center
 
 A Palo Alto Networks–inspired Threat & Response Command Center is a scenario-driven project designed to model security situations and structure them into clear workflows for analysis, response planning, and communication.
----
+
 
 ## About
 
