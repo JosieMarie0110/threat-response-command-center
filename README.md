@@ -3,13 +3,12 @@
 # Threat & Response Command Center
 **Design Inspiration:** Palo Alto Networks (Unit 42, Cortex XSIAM-style workflows)
 
-A Streamlit-based incident response and customer-facing security workflow tool designed to help structure investigation thinking, response planning, and clearer communication during live or simulated security events.
+A Streamlit-based incident response and customer-facing security workflow tool designed to help structure investigative thinking, response planning, and clearer communication during live or simulated security events.
 
 ## Overview
 ## About
 
-A Palo Alto Networks–inspired Threat & Response Command Center is a scenario-driven project designed to simulate security events and organize them into a practical workflow that is easier to interpret, explain, and act on.
-
+A Palo Alto Networks–inspired Threat & Response Command Center is a scenario-driven project designed to model security situations and structure them into clear workflows for analysis, response planning, and communication.
 
 The goal is not just to display alerts, but to help translate an incident into:
 
