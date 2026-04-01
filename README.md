@@ -6,8 +6,10 @@
 A Streamlit-based incident response and customer-facing security workflow tool designed to help structure investigation thinking, response planning, and clearer communication during live or simulated security events.
 
 ## Overview
+## About
 
-Threat & Response Command Center is a scenario-driven project built to organize security incidents into a practical workflow that is easier to read, explain, and act on.
+A Palo Alto Networks–inspired Threat & Response Command Center is a scenario-driven project designed to simulate security events and organize them into a practical workflow that is easier to interpret, explain, and act on.
+
 
 The goal is not just to display alerts, but to help translate an incident into:
 
