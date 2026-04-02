@@ -3,113 +3,100 @@
 **Status:** Early build / active concept development  
 **Design Inspiration:** Modern SOC workflows (informed by platforms like Palo Alto Networks Cortex XSIAM and Unit 42)
 
-# Threat & Response Command Center
+## Threat & Response Command Center
 
-A Palo Alto Networks–inspired Threat & Response Command Center is a scenario-driven project designed to model security situations and guide structured thinking around investigation, response decisions, and customer-facing communication.
+A scenario-driven project inspired by Palo Alto Networks, designed to model security situations and guide structured thinking across investigation, response, and customer communication.
 
-This project does not ingest real alerts or connect to live systems. Instead, it focuses on helping break down complex security situations into clear, repeatable workflows that support better analysis and decision-making.
-
-
+This project does not connect to live systems—it focuses on breaking down complex scenarios into clear, repeatable workflows.
 
 ---
 
 ## Overview
 
-This project was built to simulate how a security professional might think through a situation—not just technically, but operationally and from a customer-facing perspective.
+Simulates how security professionals think through incidents from both:
+- Technical perspective  
+- Operational / customer-facing perspective  
 
-Each scenario is structured to help answer:
-
-- What is happening?
-- What does this likely mean?
-- What should be validated first?
-- What actions should be considered?
-- How should this be communicated to a customer or stakeholder?
+Each scenario helps answer:
+- What is happening?  
+- What does it likely mean?  
+- What should be validated first?  
+- What actions should be taken?  
+- How should this be communicated?  
 
 ---
 
-## Core Purpose
+## Purpose
 
-The goal of this project is to build and demonstrate a structured approach to:
-
-- Security investigation thinking  
+Build and demonstrate a structured approach to:
+- Security investigation  
 - Response planning and prioritization  
 - Translating technical signals into business context  
-- Supporting customer conversations during uncertain situations  
+- Customer communication during uncertainty  
 
-This is especially relevant for roles that sit between technical depth and customer interaction, such as Technical Account Managers and Customer Success roles in cybersecurity.
+Relevant for TAM, CSM, and customer-facing security roles.
+
+---
 
 ---
 
 <img width="2337" height="1186" alt="image" src="https://github.com/user-attachments/assets/327d9a9c-50e2-4ead-9a02-059e0022c28a" />
 <img width="2099" height="1186" alt="image" src="https://github.com/user-attachments/assets/dacc4859-b45e-4442-89d7-6ee343b936d0" />
 
-
 ## How It Works
 
-The application presents **predefined scenarios** that represent common security situations across domains such as identity, endpoint, cloud, and network.
+Predefined scenarios across identity, endpoint, cloud, and network.
 
-Each scenario is broken down into a guided workflow:
+Each includes:
 
-### Command Snapshot
-A high-level view of the situation, including observed behavior, potential concerns, and initial context.
-
-### Investigation Thinking
-Prompts and structure for analyzing what the activity could represent and what should be validated.
-
-### Response Planning
-Suggested response paths organized into immediate, short-term, and preventative considerations.
-
-### Customer Guidance
-How to frame the situation for a customer, including what they should understand, validate, and prioritize.
-
-### TAM Assist
-Guidance on navigating customer conversations, reducing uncertainty, and communicating clearly under pressure.
-
-### Platform Context
-How a modern security platform might support visibility, investigation, and response workflows in a situation like this.
-
-### Timeline
-A simplified sequence to help visualize how the situation may have developed over time.
+- **Command Snapshot** — high-level situation overview  
+- **Investigation Thinking** — what to analyze and validate  
+- **Response Planning** — immediate, short-term, preventative actions  
+- **Customer Guidance** — how to frame the situation  
+- **TAM Assist** — navigating conversations under pressure  
+- **Platform Context** — how tools support the workflow  
+- **Timeline** — sequence of events  
 
 ---
 
-## What This Project Is (and Is Not)
+## What This Project Is
 
-### This project IS:
-- A structured thinking framework  
-- A simulation of security scenarios  
-- A tool for practicing investigation and response reasoning  
-- A way to improve communication in security contexts  
-- A portfolio project demonstrating problem-solving approach  
-
-### This project is NOT:
-- A SIEM, XDR, or detection platform  
-- Processing or ingesting real alerts  
-- Connected to live environments or telemetry  
-- Performing automated threat detection  
+- Structured thinking framework  
+- Scenario simulation tool  
+- Investigation and response practice  
+- Communication skill builder  
+- Portfolio project  
 
 ---
 
-## Why This Matters
+## What This Project Is Not
 
-Security incidents are not just technical problems—they are also:
-
-- decision-making challenges  
-- communication challenges  
-- prioritization challenges  
-- customer trust moments  
-
-This project focuses on the human and operational side of security, helping structure how those moments are handled.
+- Not a SIEM, XDR, or detection platform  
+- No real alerts or telemetry  
+- No live integrations  
+- No automated detection  
 
 ---
 
-## Intended Audience
+## Why It Matters
 
-- Security analysts and aspiring SOC professionals  
-- Technical Account Managers (TAMs)  
-- Customer Success Managers in cybersecurity  
+Security incidents are not just technical—they require:
+- Decision-making  
+- Prioritization  
+- Clear communication  
+- Customer trust  
+
+This project focuses on handling those moments effectively.
+
+---
+
+## Audience
+
+- Security analysts / SOC roles  
+- Technical Account Managers  
+- Customer Success (cybersecurity)  
 - Security consultants  
-- Anyone preparing for security-focused interviews  
+- Interview preparation  
 
 ---
 
@@ -117,9 +104,8 @@ This project focuses on the human and operational side of security, helping stru
 
 - Python  
 - Streamlit  
-- Scenario data modeled in local Python modules  
-
----
+- Scenario data (local modules)  
+What improved
 
 ## Project Structure
 
