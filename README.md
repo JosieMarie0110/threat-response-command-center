@@ -1,6 +1,6 @@
 
 
-**Status:** Early build / active concept development  
+
 **Design Inspiration:** Modern SOC workflows (informed by platforms like Palo Alto Networks Cortex XSIAM and Unit 42)
 
 ## Threat & Response Command Center
