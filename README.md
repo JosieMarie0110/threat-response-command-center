@@ -1,101 +1,89 @@
-
-
-
-**Design Inspiration:** Modern SOC workflows (informed by platforms like Palo Alto Networks Cortex XSIAM and Unit 42)
-
 ## Threat & Response Command Center
 
-A scenario-driven project inspired by Palo Alto Networks, designed to model security situations and guide structured thinking across investigation, response, and customer communication.
+**Design Inspiration:** Modern SOC workflows (informed by Palo Alto Networks Cortex XSIAM and Unit 42)
 
-This project does not connect to live systems—it focuses on breaking down complex scenarios into clear, repeatable workflows.
-
----
-
-## Overview
-
-Simulates how security professionals think through incidents from both:
-- Technical perspective  
-- Operational / customer-facing perspective  
-
-Each scenario helps answer:
-- What is happening?  
-- What does it likely mean?  
-- What should be validated first?  
-- What actions should be taken?  
-- How should this be communicated?  
+A scenario-driven framework that models how security teams investigate incidents, prioritize response, and communicate with stakeholders.
 
 ---
 
-## Purpose
+### Overview
+Simulates real-world security scenarios from two perspectives:
 
-Build and demonstrate a structured approach to:
+- Technical investigation  
+- Operational / customer communication  
+
+Each scenario is structured to answer:
+
+- What’s happening  
+- What it likely means  
+- What to validate first  
+- What actions to take  
+- How to communicate it  
+
+---
+
+### Purpose
+Demonstrates structured thinking across:
+
 - Security investigation  
-- Response planning and prioritization  
-- Translating technical signals into business context  
-- Customer communication during uncertainty  
+- Response prioritization  
+- Translating technical signals into business impact  
+- Customer communication under pressure  
 
-Relevant for TAM, CSM, and customer-facing security roles.
+Built for TAM, CSM, and customer-facing security roles.
 
 ---
+
+### How It Works
+Prebuilt scenarios across identity, endpoint, cloud, and network domains.
+
+Each scenario includes:
+
+- **Situation Snapshot** — high-level context  
+- **Investigation Path** — key signals and validation steps  
+- **Response Plan** — immediate and preventative actions  
+- **Customer Guidance** — how to frame the situation  
+- **Conversation Support** — handling stakeholder pressure  
+- **Timeline View** — sequence of events  
 
 ---
 
 <img width="2337" height="1186" alt="image" src="https://github.com/user-attachments/assets/327d9a9c-50e2-4ead-9a02-059e0022c28a" />
 <img width="2099" height="1186" alt="image" src="https://github.com/user-attachments/assets/dacc4859-b45e-4442-89d7-6ee343b936d0" />
 
-## How It Works
-
-Predefined scenarios across identity, endpoint, cloud, and network.
-
-Each includes:
-
-- **Command Snapshot** — high-level situation overview  
-- **Investigation Thinking** — what to analyze and validate  
-- **Response Planning** — immediate, short-term, preventative actions  
-- **Customer Guidance** — how to frame the situation  
-- **TAM Assist** — navigating conversations under pressure  
-- **Platform Context** — how tools support the workflow  
-- **Timeline** — sequence of events  
-
----
-
-## What This Project Is
-
-- Structured thinking framework  
-- Scenario simulation tool  
-- Investigation and response practice  
+### What This Is
+- Structured decision-making framework  
+- Scenario-based simulation tool  
+- Investigation and response practice environment  
 - Communication skill builder  
 - Portfolio project  
 
 ---
 
-## What This Project Is Not
-
-- Not a SIEM, XDR, or detection platform  
-- No real alerts or telemetry  
-- No live integrations  
-- No automated detection  
+### What This Is Not
+- Not a SIEM or XDR platform  
+- No live telemetry or alerts  
+- No integrations or automation  
 
 ---
 
-## Why It Matters
+### Why It Matters
+Security incidents require more than detection. They demand:
 
-Security incidents are not just technical—they require:
-- Decision-making  
-- Prioritization  
-- Clear communication  
+- Prioritization under pressure  
+- Clear decision-making  
+- Effective communication  
 - Customer trust  
 
-This project focuses on handling those moments effectively.
+This project focuses on the human and operational layer of security, where outcomes are determined.
 
 ---
 
-## Audience
-
-- Security analysts / SOC roles  
-- Technical Account Managers  
-- Customer Success (cybersecurity)  
-- Security consultants  
+### Audience
+- SOC / Security Analysts  
+- Technical Account Managers (TAM)  
+- Customer Success (Cybersecurity)  
+- Security Consultants  
 - Interview preparation  
 
 ---
